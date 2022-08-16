@@ -3,7 +3,7 @@ Console.Clear();
 int Cycle(int a)                              // используем функцию
 {
     int sum  = 0;                             //так как нужно будет записывать сумму принимаем в еще одну переменную
-    for(int i = 1; i<=a; i++)                // используем цикл
+    for(int i = 1; i<=a; i++)                 // используем цикл
     {
         sum = sum + i;
     }
@@ -13,4 +13,4 @@ int Cycle(int a)                              // используем функц
 Console.Write("Введите число A: ");
 int number = Convert.ToInt32(Console.Read()); //принимаем это число Convert.ToInt32(numberText[0].ToString())
 int sum = Cycle(number);
-Console.Write($"Результат = {sum}");
+Console.Write($"Результат = {sum}");          //($"Результат = {Cycle(number)}");
