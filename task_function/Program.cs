@@ -11,6 +11,6 @@ int Cycle(int a)                              // используем функц
 }
 
 Console.Write("Введите число A: ");
-int number = Convert.ToInt32(Console.Read()); //принимаем это число Convert.ToInt32(numberText[0].ToString())
+int number = Convert.ToInt32(Console.ReadLine()); //принимаем это число Convert.ToInt32(numberText[0].ToString())
 int sum = Cycle(number);
 Console.Write($"Результат = {sum}");          //($"Результат = {Cycle(number)}");
